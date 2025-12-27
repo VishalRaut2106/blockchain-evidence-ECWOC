@@ -2,8 +2,8 @@
 class SupabaseStorage {
     constructor() {
         // Supabase config (free tier - 500MB database, 1GB bandwidth/month)
-        this.supabaseUrl = 'https://your-project.supabase.co';
-        this.supabaseKey = 'your-anon-key';
+        this.supabaseUrl = 'https://vkqswulxmuuganmjqumb.supabase.co';
+        this.supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZrcXN3dWx4bXV1Z2FubWpxdW1iIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjY3ODc3OTQsImV4cCI6MjA4MjM2Mzc5NH0.LsZKX2aThok0APCNXr9yQ8FnuJnIw6v8RsTIxVLFB4U';
         this.apiUrl = `${this.supabaseUrl}/rest/v1`;
         this.init();
     }
