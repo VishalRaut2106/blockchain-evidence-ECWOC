@@ -1,0 +1,12 @@
+name: "CodeQL Config"
+
+disable-default-path-filters: false
+
+paths-ignore:
+  - "**/*.md"
+  - "**/*.txt"
+  - "**/*.yml"
+  - "**/*.yaml"
+
+queries:
+  - uses: security-and-quality
